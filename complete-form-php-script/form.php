@@ -1,5 +1,5 @@
 
-<!DOCTYPE HTML>  
+<!doctype html>  
 <html>
 <head>
 <style>
