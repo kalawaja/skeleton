@@ -1,17 +1,16 @@
 
+<!-- In the example above, if $int was set to 0, the function above will return "Integer is not valid". To solve this problem, use the code below: -->
+
 <!doctype html>
 <html>
 <body>
 
 <?php
-$int = 100;
+$int = 0;
 
-if (!filter_var($int, FILTER_VALIDATE_INT) === false) {
+if (filter_var($int, FILTER_VALIDATE_INT) === 0 || !filter_var($int, FILTER_VALIDATE_INT) === false) {
   echo("Integer is valid");
 } else {
   echo("Integer is not valid");
 }
 ?>
-
-</body>
-</html>
