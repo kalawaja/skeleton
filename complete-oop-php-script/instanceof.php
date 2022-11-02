@@ -20,7 +20,7 @@ class Fruit {
   }
 }
 
-$apple = new Fruit();
+$apple = new Fruit;
 var_dump($apple instanceof Fruit);
 ?>
  
