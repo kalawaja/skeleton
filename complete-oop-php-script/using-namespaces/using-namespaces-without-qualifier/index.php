@@ -1,12 +1,13 @@
 
 <?php
+namespace Html;
 include "Html.php";
 
-$table = new Html\Table();
+$table = new Table();
 $table->title = "My table";
 $table->numRows = 5;
 
-$row = new Html\Row();
+$row = new Row();
 $row->numCells = 3;
 ?>
 
