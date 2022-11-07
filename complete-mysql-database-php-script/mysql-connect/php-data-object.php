@@ -12,4 +12,11 @@ try {
 } catch(PDOException $e) {
   echo "Connection failed: " . $e->getMessage();
 }
+
+# Close the Connection
+// Note: The connection will be closed automatically when the script ends. To close the connection before, use the following:
+
+/*
+$conn = null;
+*/
 ?>
