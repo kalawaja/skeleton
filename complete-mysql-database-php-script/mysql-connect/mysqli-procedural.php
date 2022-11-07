@@ -12,4 +12,12 @@ if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
 echo "Connected successfully";
+
+# Close the Connection
+// The connection will be closed automatically when the script ends. To close the connection before, use the following:
+
+/*
+MySQLi Procedural:
+mysqli_close($conn);
+*/
 ?>
